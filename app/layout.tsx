@@ -11,8 +11,8 @@ import './globals.css'
 const font = Urbanist({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Store',
-  description: 'Store',
+  title: 'Online Shop',
+  description: 'Online Shop',
 }
 
 export default function RootLayout({
