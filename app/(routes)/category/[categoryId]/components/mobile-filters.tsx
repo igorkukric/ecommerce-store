@@ -22,7 +22,7 @@ const MobileFilters: React.FC<MobileFiltersProps> = ({ sizes, colors }) => {
   return (
     <>
       <Button onClick={onOpen} className="flex items-center gap-x-2 lg:hidden">
-        Filters
+        Filteri
         <Plus size={20} />
       </Button>
 
@@ -49,8 +49,8 @@ const MobileFilters: React.FC<MobileFiltersProps> = ({ sizes, colors }) => {
 
             {/* Render the filters */}
             <div className="p-4">
-              <Filter valueKey="sizeId" name="Sizes" data={sizes} />
-              <Filter valueKey="colorId" name="Colors" data={colors} />
+              <Filter valueKey="sizeId" name="Veličine" data={sizes} />
+              <Filter valueKey="colorId" name="Boje" data={colors} />
             </div>
           </Dialog.Panel>
         </div>
