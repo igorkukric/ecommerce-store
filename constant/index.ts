@@ -11,7 +11,7 @@ export const footerLinks = [
       "Društveno odgovorno poslovanje",
       "Posao u NLS",
       "Zakupljujemo lokale",
-      "Company profile",
+      
     ],
   },
   {
